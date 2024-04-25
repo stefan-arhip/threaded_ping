@@ -139,5 +139,5 @@ begin
     ' seconds.');
   WriteLn('Offline = ', IpOffline);
   WriteLn('Online = ', IpOnline);
-  Readln;
+  //Readln;
 end.
