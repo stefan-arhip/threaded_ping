@@ -9,13 +9,13 @@
         <Filename Value="tping.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="105"/>
-        <CursorPos X="5" Y="142"/>
+        <TopLine Value="100"/>
+        <CursorPos X="31" Y="119"/>
         <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="tping.lpr"/>
         <Caret Line="114" Column="13" TopLine="82"/>
@@ -24,6 +24,10 @@
         <Filename Value="tping.lpr"/>
         <Caret Line="98" Column="33" TopLine="13"/>
       </Position2>
+      <Position3>
+        <Filename Value="tping.lpr"/>
+        <Caret Line="90" Column="13" TopLine="94"/>
+      </Position3>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

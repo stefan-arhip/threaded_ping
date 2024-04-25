@@ -94,6 +94,11 @@ begin
     WriteLn('TPING - Threaded Ping');
     WriteLn('a software by stefan.arhip');
     WriteLn;
+
+    Write('IP mask to scan [', MaskIP, ']=');
+    ReadLn(str);
+    if str <> '' then
+      MaskIP := str;
     Write('Max threads [', MaxThreads, ']=');
     ReadLn(str);
     if str <> '' then
@@ -110,10 +115,11 @@ begin
     ReadLn(str);
     if str <> '' then
       Timeout := StrToInt(str);
-    Write('IP mask to scan [', MaskIP, ']=');
-    ReadLn(str);
-    if str <> '' then
-      MaskIP := str;
+  end
+  else if ParamCount >= 1 then
+  begin
+    MaskIP := ParamStr(1);
+    Writeln(MaskIp);
   end;
 
   StartTime := Now();
